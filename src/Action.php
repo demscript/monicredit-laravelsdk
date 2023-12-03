@@ -1,0 +1,17 @@
+<?php
+
+namespace Demscript\Monicredit;
+
+abstract class Action
+{
+    const INIT_TRANSACTION = "INIT_TRANSACTION";
+    const CONFIRM_TRANSACTION = "CONFIRM_TRANSACTION";
+    const CONFIRM_PAYMENT = "CONFIRM_PAYMENT";
+    const GET_BANK_LIST  = "GET_BANK_LIST";
+    const GET_NAME_ENQUIRY  = "GET_NAME_ENQUIRY";
+    const GET_ACCEPTED_COINS  = "GET_ACCEPTED_COINS";
+    const TRANSFER_FUNDS = "TRANSFER_FUNDS";
+    const PAYMENT_LINK = "PAYMENT_LINK";
+    const SWAP_CRYPTO = "SWAP_CRYPTO";
+    const GET_CRYPTO_AMOUNT = "GET_CRYPTO_AMOUNT";
+}
