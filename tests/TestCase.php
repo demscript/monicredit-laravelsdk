@@ -2,15 +2,15 @@
 
 namespace Tests;
 
-use Pipedev\Lazerpay\LazerPayServiceProvider;
+use Demscript\Monicredit\LazerPayServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
-class TestCase extends Orchestra
-{
-    protected $loadEnvironmentVariables = true;
+// class TestCase extends Orchestra
+// {
+//     protected $loadEnvironmentVariables = true;
     
-    protected function getPackageProviders($app)
-    {
-        return [LazerPayServiceProvider::class];
-    }
-}
+//     protected function getPackageProviders($app)
+//     {
+//         return [LazerPayServiceProvider::class];
+//     }
+// }

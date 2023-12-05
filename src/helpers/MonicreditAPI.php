@@ -13,7 +13,8 @@ class MonicreditAPI
         $secretKey = Config::get('monicredit.secret');
 
         return Http::retry(3, 100)->withToken($secretKey)->withHeaders([
-            'x-api-key' => $publicKey
+            'mcpublickey' => $publicKey,
+            'mcprivatekey' => $secretKey,
         ]);
     }
 }

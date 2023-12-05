@@ -1,12 +1,12 @@
 <?php
 
-namespace Pipedev\Lazerpay\Test\Feature;
+namespace Demscript\Monicredit\Test\Feature;
 
-use Pipedev\Lazerpay\Lazerpay;
+use Demscript\Monicredit\Monicredit;
 
 beforeEach(function () {
-    $this->lazerpay = new Lazerpay();
-    $this->transaction = $this->lazerpay->initializePayment([
+    $this->lazerpay = new Monicredit();
+    $this->transaction = $this->monicredit->initializePayment([
         "customer_name" => "iamnotstatic.eth",
         "customer_email" => "abdulfataisuleiman67@gmail.com",
         "coin" => "USDC",
