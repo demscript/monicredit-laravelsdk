@@ -24,7 +24,6 @@
             "email": "demscript@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "config": {
         "allow-plugins": {
             "pestphp/pest-plugin": true
@@ -64,5 +63,7 @@
                 "Monicredit": "Demscript\\Monicredit\\Facades\\MonicreditFacade"
             }
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
