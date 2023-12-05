@@ -44,12 +44,12 @@
         "guzzlehttp/guzzle": "7.*",
         "fruitcake/laravel-cors": "3.*",
         "orchestra/testbench": "7.*",
-        "phpunit/phpunit": "^9.*"
+        "phpunit/phpunit": "^9.5.10"
     },
     "require-dev": {
-        "pestphp/pest": "^1.*",
-        "pestphp/pest-plugin-laravel": "^1.*",
-        "spatie/laravel-ignition": "^1.*"
+        "pestphp/pest": "^1.22",
+        "pestphp/pest-plugin-laravel": "^1.2",
+        "spatie/laravel-ignition": "^1.0"
     },
     "scripts": {
         "test": "./vendor/bin/pest"
